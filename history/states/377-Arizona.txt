@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = WLD
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
