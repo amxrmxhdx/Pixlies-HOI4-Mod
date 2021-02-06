@@ -7,7 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = WLD
+		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 3
 			4908 = {
@@ -30,7 +31,7 @@ state={
 	}
 
 	provinces={
-		2069 4908 4977 5071 8012 8033 10765 10848 12833 13214
+		2069   5071 8012   10848 12833  13215 12461 13216 1892 12859 7964
 	}
 	
 }
