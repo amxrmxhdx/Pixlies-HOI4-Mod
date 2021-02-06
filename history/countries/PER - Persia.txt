@@ -86,6 +86,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "BananaMapping"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "BANANAMAPPING.dds"
+	expire = "1965.1.1"
+	ideology = communism
+	traits = {
+		#
+	}
+}
+
 create_corps_commander = {
 	name = "Hybrid"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"

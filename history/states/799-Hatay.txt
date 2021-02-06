@@ -9,7 +9,7 @@ state={
 	state_category = enclave
 
 	history= {
-		owner = PER
+		owner = WLD
 		victory_points = {
 			12029 1
 		}
