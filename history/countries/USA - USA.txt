@@ -1,4 +1,4 @@
-﻿capital = 361
+﻿capital = 379
 
 oob = "USA_1936"
 if = {
@@ -263,34 +263,24 @@ set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 99
-	communism = 1
-}
-
-add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+	democratic = 66
+	neutrality = 33
 }
 
 
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
+
+
+
 
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1936.11.3"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 
@@ -316,6 +306,7 @@ create_country_leader = {
 		caliph
 		unpopular_monarch
 		divisive_absolute_monarch
+		anti_communist
 	}
 }
 
@@ -325,6 +316,9 @@ create_country_leader = {
 	picture = "skulli.dds"
 	expire = "1965.1.1"
 	ideology = despotism
+	traits = {
+		anti_communist
+	}
 }
 create_field_marshal = {
 	name = "angryfishstick_1"
