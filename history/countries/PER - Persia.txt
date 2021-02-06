@@ -69,10 +69,11 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 100
+	neutrality = 97
+	communism = 3
 }
 
 create_country_leader = {
@@ -82,7 +83,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#
+		Anti-Communist
+		Appeaser
+		Humble
+		Assassination_Survivor
 	}
 }
 
@@ -91,9 +95,9 @@ create_country_leader = {
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
 	picture = "BANANAMAPPING.dds"
 	expire = "1965.1.1"
-	ideology = communism
+	ideology = stalinism
 	traits = {
-		#
+		Dictator
 	}
 }
 

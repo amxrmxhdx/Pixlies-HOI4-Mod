@@ -1,0 +1,30 @@
+﻿focus_tree = {
+	id = persian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PER
+		}
+
+	}
+	
+	default = no
+
+	focus = {
+		id = PER_path_to_glory
+		icon = PER_path_to_glory
+		x = 2
+		y = 0
+
+		cost = 10
+
+		completation_reward = {
+			add_political_power = 1000;
+		}
+
+	}
+
+}		
