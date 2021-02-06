@@ -307,6 +307,7 @@ create_country_leader = {
 		unpopular_monarch
 		divisive_absolute_monarch
 		anti_communist
+		exiled
 	}
 }
 
@@ -318,6 +319,7 @@ create_country_leader = {
 	ideology = despotism
 	traits = {
 		anti_communist
+		exiled
 	}
 }
 create_field_marshal = {
