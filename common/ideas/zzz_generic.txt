@@ -144,6 +144,7 @@ ideas = {
 				justify_war_goal_time = 1000
 				enemy_justify_war_goal_time = 1000
 				resistance_growth = -318294
+				political_power_factor = -100000
 			}
 		}
 		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping

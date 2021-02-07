@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = WLD
-		add_core_of = INS
+		#add_core_of = INS
 		buildings = {
 			infrastructure = 3
 			1574 = {

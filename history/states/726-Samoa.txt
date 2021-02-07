@@ -6,7 +6,7 @@ state={
 
 	history={
 		owner = WLD
-		add_core_of = SAM
+		#add_core_of = SAM
 		buildings = {
 			infrastructure = 3
 			7290 = {

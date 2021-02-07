@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = WLD
-		add_core_of = JAP
+		#add_core_of = JAP
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

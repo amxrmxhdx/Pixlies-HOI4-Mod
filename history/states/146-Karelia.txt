@@ -6,7 +6,7 @@ state={
 
 	history={
 		owner = WLD
-		add_core_of = FIN
+		#add_core_of = FIN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

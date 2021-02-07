@@ -11,13 +11,13 @@ state={
 	}
 
 	history={
-		add_core_of = SCO
+		#add_core_of = SCO
 		owner = WLD
 		buildings = {
 			infrastructure = 6
 			dockyard = 2
 		}
-		add_core_of = ENG
+		#add_core_of = ENG
 	}
 
 	provinces={

@@ -1,6 +1,6 @@
-oob = "PER_1936"
+oob = ""
 
-capital = 5;
+capital = 5
 
 set_convoys = 10
 
@@ -10,7 +10,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+add_ideas = wilderness
 set_popularities = {
 	neutrality = 100
 }

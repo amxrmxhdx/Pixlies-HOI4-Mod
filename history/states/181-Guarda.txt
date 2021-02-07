@@ -22,7 +22,7 @@ state={
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = POR
+		#add_core_of = POR
 	}
 
 	provinces={

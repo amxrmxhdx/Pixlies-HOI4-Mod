@@ -9,7 +9,7 @@ state={
 		tungsten = 120 
 	}
 	history={
-		add_core_of = BRM
+		#add_core_of = BRM
 		owner = WLD
 		buildings = {
 			infrastructure = 3
