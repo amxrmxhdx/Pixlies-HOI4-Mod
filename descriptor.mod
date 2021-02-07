@@ -5,5 +5,6 @@ tags={
 	"Military"
 	"National Focuses"
 }
+replace_path = "gfx/loadingscreens"
 name="PixliesMod"
 supported_version="1.10.4"
