@@ -1,0 +1,56 @@
+Recruit_members = {
+	ai_claim = {
+
+	
+		available = {
+			#check_variable = { dx > 50 }
+			has_manpower > 10000
+			ROOT={ any_owned_state={any_neighbor_state = { is_owned_by = WLD }}}
+		}
+
+		cost = 100
+		fire_only_once = no
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 1000
+			modifier = {
+			factor = 10
+				num_occupied_states < 30
+			}
+			modifier = {
+			factor = 0.001
+			has_manpower < 15000
+			}
+			modifier = {
+			factor = 0.01
+			has_war = yes
+			NOT = {has_manpower > 100000}
+			}
+		}
+
+		visible = {
+			is_ai = yes
+			NOT={original_tag = WLD}
+		}
+
+		complete_effect = {
+			random_state ={
+			limit = {AND={
+			is_owned_by = WLD				
+			any_neighbor_state = { is_owned_by = ROOT }
+			}}
+			add_core_of = ROOT
+			
+			ROOT = {
+				transfer_state = PREV
+
+			}
+			ROOT = { }
+								ROOT = {add_manpower = -10000}
+			}
+		}
+	}
+}
+
+	

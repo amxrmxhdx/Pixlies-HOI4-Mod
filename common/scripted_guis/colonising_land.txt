@@ -1,0 +1,52 @@
+scripted_gui = {
+	colonising_land = {
+	
+		context_type = selected_state_context
+		
+		window_name = "coring_button_powers1_container"
+		
+		visible = {
+
+			AND = {
+				is_fully_controlled_by = WLD
+				FROM = {OR={any_neighbor_state = { is_owned_by = ROOT }
+				AND={is_coastal = yes
+				ROOT = {any_owned_state = {is_coastal = yes}}}}}
+				
+			}
+		}
+		
+		effects = {
+			colonise_state_click = {
+								#ROOT = {subtract_from_variable = { var = dx value = 50 } }
+								ROOT = {add_manpower = -10000 add_political_power = -100 }
+								
+								FROM ={
+			
+			add_core_of = ROOT
+			
+			ROOT = {
+				transfer_state = PREV
+
+			}
+			}
+				}
+				
+		}
+		triggers = {
+			colonise_state_click_enabled = {
+				#check_variable = { Root.dx > 49.99 }
+				ROOT = {has_political_power > 100}
+				check_variable = { ROOT.manpower > 10000 }
+				
+				
+			}
+		}
+		  
+		
+		
+ 
+	}
+}
+
+ 
